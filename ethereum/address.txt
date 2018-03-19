@@ -1,2 +1,5 @@
 Attemping to deploy from account 0x4E3DFB051054a30ECC5aD722b3692287f3670eb5
 Contract deployed to:  0xB2F3dE9bE708B9A971182c193E811745795d42F2
+
+Attemping to deploy from account 0x4E3DFB051054a30ECC5aD722b3692287f3670eb5
+Contract deployed to:  0xC20F0347006Bf48207aF589167CDb4aed300d233
