@@ -1,8 +1,10 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
+const {metamask_wallet_password} = require('./metamask_wallet_password')
 
-const provider = new HDWalletProvider('all evil dwarf ensure wool minor neither frame candy strong camera learn',
+//console.log(metamask_wallet_password)
+const provider = new HDWalletProvider(metamask_wallet_password,
 'https://rinkeby.infura.io/p3M4EvN162hvHud2S5Z7');
 
 const web3 = new Web3(provider);
