@@ -34,7 +34,7 @@ class ContributeForm extends Component {
         this.setState({errorMsg:err.message})
     }
 
-    this.setState({loading:false})
+    this.setState({loading:false,value:''})
   }
 
   render(){
