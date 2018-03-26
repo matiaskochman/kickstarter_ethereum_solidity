@@ -18,6 +18,8 @@ class RequestIndex extends Component {
     const campaign = CampaignFunction(props.query.address);
     const requestCount = await campaign.methods.getRequestCount().call();
 
+    const approversCount = await campaign.methods.approversCount().call();
+    console.log('approversCount: ',approversCount)
     console.log('requestCount: ',requestCount)
     //because of solidity I cannot get an array of
     //getRequests(), so I have to solve it in a different way
@@ -37,7 +39,8 @@ class RequestIndex extends Component {
     return {
       campaignAddress:props.query.address,
       requests,
-      requestCount
+      requestCount,
+      approversCount
      };
   }
 
@@ -49,7 +52,8 @@ class RequestIndex extends Component {
             key={index}
             id={index}
             request={request}
-            address={this.props.address}
+            campaignAddress={this.props.campaignAddress}
+            approversCount={this.props.approversCount}
           />
         )
       })
