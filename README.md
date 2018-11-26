@@ -4,4 +4,5 @@ working on a kickstarter similar project using the ethereum network with solidit
 1) Install metamask chrome plugin from the chrome webstore.
 2) Create ethereum accounts in metamask.
 3) Change to Rinkby test network in metamask.
-4) After creating an account go to http://rinkeby-faucet.com/ to get 0.1 ETHER for testing to your new created account.
+4) After creating an account go to http://rinkeby-faucet.com/ to get 0.01 ETHER for testing to your new created account.
+5) More ETHER for rinkeby test network, https://faucet.rinkeby.io/ 
